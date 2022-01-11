@@ -1,0 +1,234 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+
+  body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+  }
+
+  a {
+    color: #161616;
+    text-decoration: none;
+  }
+
+  .container {
+    width: 90%;
+    margin: auto;
+  }
+
+  /* Navigation */
+  .nav-main {
+    font-size: 17px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+    padding: 20px 0;
+  }
+  
+  .nav-brand {
+    width: 60px;
+  }
+  
+  /* Navbar Left */
+    .nav-main ul {
+    display: flex;
+    list-style: none;
+  }
+  
+  .nav-main ul li {
+    padding: 10px;
+  }
+  
+  .nav-main ul li a:hover {
+    border-bottom: 2px solid rgb(8, 8, 8);
+  }
+  
+  .nav-main ul.nav-menu {
+    flex: 1;
+    margin-left: 20px;
+  }
+
+  hr {
+    margin: 10px 0;
+  }
+  
+  /* SHOWCASE */
+  .showcase{
+    width: 100%;
+    height: 500px;
+    background: url("Imagenes/fondo_a.png") no-repeat center center/cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: flex-end;
+    padding-bottom: 150px;
+    margin-bottom: 20px;
+    color: rgb(150, 97, 18);
+  }
+
+  .btn {
+    cursor: pointer;
+    display: inline-block;
+    border: 0;
+    border-radius: 30px;
+    font-weight: bold;
+    padding: 10px 20px;
+    background: #f058c2;
+    color: #fff;
+    font-size: 15px;
+    border: 1px solid #fff;
+  }
+  
+  .btn:hover {
+    opacity: 0.9;
+  }
+  
+  .showcase h2,
+  .showcase p {
+     margin-bottom: 20px; 
+     font-size: 25px;
+  }
+
+  /* Services */
+  .services{
+    display: grid;
+    text-align: center;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 50px;
+    margin: 10px 0;
+  }
+
+  .services img{
+    width: 80%;
+    height: 200px;
+  }
+
+  ul.serv-menu li{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    text-align: center;
+    padding: 6px 0;
+  }
+
+  .services h3{
+    margin: 20px 0;
+  }
+
+  /* Mision */
+  .mision{
+    display: grid;
+    text-align: center;
+    gap: 50px;
+    margin: 80px 0;
+
+  }
+
+  /* Social */
+  .social {
+    margin: 50px;
+  }
+  .social p {
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 20px;
+  }
+  .links {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .links a {
+    margin: 0 20px;
+  }
+  
+  .links a i {
+    font-size: 3rem;
+  }
+
+  /* Footer */
+  .footer-container {
+    display: grid;
+    align-items: flex-start;
+    justify-content: center;
+  }
+  
+  .footer {
+    background: #f762b4;
+    color: #616161ab;
+    font-size: 12px;
+    padding: 20px 0;
+    text-align: center;
+    font-size: 1rem;
+    padding: 20px;
+  }
+
+  /* SHOWCASE PRECIOS*/
+  .showcase_precios{
+    width: 100%;
+    height: 500px;
+    background: url("Imagenes/oferta.jpg") no-repeat center center/cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: flex-end;
+    padding-bottom: 150px;
+    margin-bottom: 20px;
+    color: rgb(150, 97, 18);
+  }
+  .showcase_precios h1 {
+    margin-bottom: 20px; 
+ }
+
+  /* SHOWCASE CONTACIOS*/
+  .showcase_contactos{
+    width: 100%;
+    height: 500px;
+    background: url("Imagenes/contacto.jpg") no-repeat center center/cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: flex-end;
+    padding-bottom: 150px;
+    margin-bottom: 20px;
+    color: rgb(150, 97, 18);
+  }
+
+  .showcase_contactos h1 {
+    margin-bottom: 20px; 
+  }
+
+  /* Maps */
+  .maps{
+    display: grid;
+    text-align: center;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 50px;
+    margin: 10px 0;
+  }
+
+  /* Mobil */
+  @media (max-width: 700px) {
+  .services{
+    grid-template-columns: repeat(1, 1fr);
+  }
+  ul.serv-menu li{
+    list-style: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    text-align: center;
+    padding: 6px 0;
+  }
+  .menu-btn {
+    display: block;
+  }
+
+
+
