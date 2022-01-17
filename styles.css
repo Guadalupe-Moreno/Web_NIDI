@@ -184,7 +184,33 @@
   }
   .showcase_precios h1 {
     margin-bottom: 20px; 
- }
+  }
+
+  /* Marketing Digital */
+  .precios_Marketing {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+    margin: 70px 10;
+    align-items: center;
+    text-align: center;
+  }
+
+  .precios_Marketing img {
+    width: 70%;
+    height: 300px;
+  }
+
+  ol.prec-menu li{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    text-align: center;
+    padding: 6px;
+  }
+
+  .precios_Marketing h3{
+    margin: 20px 0;
+  }
 
   /* SHOWCASE CONTACIOS*/
   .showcase_contactos{
@@ -197,7 +223,7 @@
     text-align: center;
     justify-content: flex-end;
     padding-bottom: 150px;
-    margin-bottom: 20px;
+    margin-bottom: 50px;
     color: rgb(150, 97, 18);
   }
 
@@ -205,17 +231,58 @@
     margin-bottom: 20px; 
   }
 
+  /* Nuestro equipo */
+  .encabesado h1 {
+    text-align: center;
+    color: #1d8fec;
+  }
+  .nuestro_equipo {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 25px;
+    margin: 70px 0;
+  }
+
+  .nuestro_equipo img {
+    width: 100%;
+    height: 400px;
+  }
+  
+  .nuestro_equipo h3 {
+    font-size: 20px;
+    text-align: center;
+    margin: 10px 0;
+  }
+
+  .nuestro_equipo p {
+    text-align: center;
+  }
+
+  .nuestro_equipo a {
+    padding: 15px 0;
+    color: #1d8fec;
+    display: inline-block;
+    font-weight: bold;
+  }
+
+  .nuestro_equipo a:hover{
+    text-decoration: underline;
+  }
+
   /* Maps */
   .maps{
     display: grid;
     text-align: center;
     grid-template-columns: repeat(2, 1fr);
-    gap: 50px;
+    gap: 25px;
     margin: 10px 0;
   }
 
   /* Mobil */
   @media (max-width: 700px) {
+  .precios_Marketing,
+  .maps,
+  .nuestro_equipo,
   .services{
     grid-template-columns: repeat(1, 1fr);
   }
@@ -229,6 +296,6 @@
   .menu-btn {
     display: block;
   }
-
+  }
 
 
