@@ -71,6 +71,10 @@
     color: rgb(150, 97, 18);
   }
 
+  .showcase h1,h2{
+    text-shadow: 1px 1px 1px #ffffff;
+  }
+
   .btn {
     cursor: pointer;
     display: inline-block;
@@ -123,13 +127,13 @@
   .Apps {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: 50px;
+    gap: 30px;
     margin: 10px 0;
   }
 
   .Apps img{
-    width: 90%;
-    height: 180px;
+    width: 100%;
+    height: 170px;
   }
 
   /* Mision */
@@ -197,6 +201,7 @@
   }
   .showcase_precios h1 {
     margin-bottom: 20px; 
+    text-shadow: 1px 1px 1px #ffffff;
   }
 
   /* Marketing Digital */
@@ -242,6 +247,7 @@
 
   .showcase_contactos h1 {
     margin-bottom: 20px; 
+    text-shadow: 1px 1px 1px #ffffff;
   }
 
   /* Nuestro equipo */
